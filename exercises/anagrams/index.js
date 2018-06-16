@@ -24,6 +24,7 @@ function anagrams(stringA,stringB){
  }
  
  
+ //HELPER FUNCTION // 
  function cleanUp(str){
    return str.replace(/[^\w]/g, "").toLowerCase().split('').sort().join('');
  }
