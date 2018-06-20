@@ -9,7 +9,7 @@ function bubbleSort(arr) {
         console.log("value of j", j, "value of j+1", j+1)
         if(arr[j]>arr[j+1]){
           const lesser = arr[j+1];
-    
+    console.log(lesser)
           arr[j+1]=arr[j];
           arr[j]=lesser;
   
